@@ -12,7 +12,8 @@ public class HelloWorld extends CarActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_world);
-        getCarUiController().getStatusBarController().setTitle("Hello AA");
+        // getCarUiController().getStatusBarController().setTitle("Hello AA");
+
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
