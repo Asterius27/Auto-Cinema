@@ -41,8 +41,11 @@
 
         <service
             android:name=".CarInputService"
-            android:exported="true">
+            android:exported="true"
+            android:label="Android Auto Cinema">
             <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
                 <category android:name="com.google.android.gms.car.category.CATEGORY_PROJECTION" />
                 <category android:name="com.google.android.gms.car.category.CATEGORY_PROJECTION_OEM" />
             </intent-filter>

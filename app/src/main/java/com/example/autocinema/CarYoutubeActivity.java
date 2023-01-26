@@ -25,8 +25,8 @@ public class CarYoutubeActivity extends CarActivity {
         Button button = (Button) findViewById(R.id.keyboard);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(CarYoutubeActivity.this, CarInputActivity.class);
-                CarYoutubeActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(CarYoutubeActivity.this, CarInputService.class);
+                CarYoutubeActivity.this.startService(myIntent);
             }
         });
     }
