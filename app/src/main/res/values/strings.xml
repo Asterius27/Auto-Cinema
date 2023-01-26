@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AutoCinema</string>
     <string name="hello_world_aa">Hello World AA!</string>
+    <string name="keyboard">Keyboard</string>
 </resources>
